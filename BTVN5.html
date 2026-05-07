@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+    <header>
+        <title>Bài tập về các thẻ table và form</title>
+    </header>
+    <body>
+        <main>
+            <section>
+                <h2><b>Bài 1:</b>Tạo bảng có chứa thông tin sản phẩm trong cửa hàng của bạn:</h2>
+                <h3>My Store</h3>
+            <table border="1">
+                <tr>
+                    <th>Item Photo</th>
+                     <th>Name</th>
+                      <th>Price</th>
+                </tr>
+                <tr>
+                    <td><img src="./OIP.jfif" alt="Ảnh cam"></td>
+                     <td>Oranges</td>
+                      <td> &dollar;1 ea</td>
+                </tr>
+                <tr>
+                    <td><img src="./banana.jfif" alt="Ảnh chuối"></td>
+                     <td>Bananas</td>
+                      <td> &dollar;0.75/lb</td>
+                </tr>
+                 <tr>
+                    <td><img src="./luu.jfif" alt="Ảnh lựu"></td>
+                     <td>Pomegranates</td>
+                      <td> 3 for &dollar;5</td>
+                </tr>
+                 <tr>
+                    <td><img src="./gummy bears.webp" alt="Ảnh Gummy Bears"></td>
+                     <td>Gummy Bears</td>
+                      <td> &dollar;6 per bag</td>
+                </tr>
+                 <tr>
+                    <td><img src="./suplo.webp" alt="Ảnh súp lơ"></td>
+                     <td>Brocoli</td>
+                      <td> &dollar;3 a head</td>
+                </tr>
+            </table>
+            </section>
+
+            <section>
+                <h2><b>Bài 2:</b> Tạo form đặt phòng khách sạn:</h2>
+                <h3>Booking Form</h3>
+                <div>
+                    <form action="https://www.myserver.com" method="get">
+                    <label for="Name">Name</label>
+                    <input type="text" name="Name" id="Name" placeholder="Nguyen Van A">
+                </form>
+                </div>
+                <div>
+                    <label for="Email">Email</label>
+                    <input type="email" name="Email" id="Email">
+                </div>
+                <div>
+                    <label for="Phone">Phone</label>
+                    <input type="tel" name="Phone" id="Phone">
+                </div>
+                <div>
+                    <label for="Date">Date</label>
+                    <input type="date" name="Date" id="Date">
+                </div>
+                <div>
+                    <label for="Time">Time</label>
+                    <input type="time" name="Time" id="Time">
+                </div>
+                <div>
+                    <label for="Number of Guest">Number of Guest</label>
+                    <input type="number" name="Number of Guest" id="Number of Guest">
+                </div>
+                <div>
+                    <input type="submit" name="" id="">
+                </div>
+            </section>
+           
+            <section>
+                <h2>  <b>Bài 3:</b> Tạo form mua xe:</h2>
+                <h3>Car Purchase Form</h3>
+                <div>
+                    <label for="Name">Name</label>
+                    <input type="text" name="Name" id="Name" placeholder="Nguyen Van A">
+                </div>
+                <div>
+                    <label for="Phone">Phone</label>
+                    <input type="tel" name="Phone" id="Phone">
+                </div>
+                <div>
+                    <label for="Choose a Car">Choose a Car</label>
+                    <select name="Choose a Car" id="Choose a Car">
+                        <option value="">Modern 1</option>
+                        <option value="">Modern 2</option>
+                        <option value="">Modern 3</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="Choose a Color">Choose a Color</label>
+                    <select name="Choose a Color" id="Choose a Color">
+                        <option value="">Red</option>
+                        <option value="">White</option>
+                        <option value="">Black</option>
+                        <option value="">Gray</option>
+                        <option value="">Silver</option>
+                        <option value="">Blue</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="Quantity">Quantity</label>
+                    <input type="text" name="Quantity" id="Quantity">
+                </div>
+                <div>
+                    <label for="Deliverty Date">Deliverty Date</label>
+                    <input type="date" name="Deliverty Date" id="Deliverty Date">
+                </div>
+                <div>
+                    <input type="submit" value="Submit">
+                </div>
+                <div></div>
+            </section>
+        </main>
+    </body>
+</html>
